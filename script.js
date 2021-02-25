@@ -20,7 +20,7 @@ require(["esri/config", "esri/Map", "esri/views/MapView", "esri/core/urlUtils","
     latitudeField: "Lat",
     longitudeField: "Lon",
     popupTemplate: template,
-    renderer: renderer
+   
   });
          
   csvLayer.renderer = {
